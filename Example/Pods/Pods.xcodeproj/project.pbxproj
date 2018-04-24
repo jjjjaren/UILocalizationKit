@@ -8,14 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		2DD73FB2A97B4B8A9FF091DEB0B3DAA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		37A1181A208EBFF300E6C81C /* UILabel+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A11813208EBFF300E6C81C /* UILabel+Localization.swift */; };
-		37A1181B208EBFF300E6C81C /* UITextField+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A11814208EBFF300E6C81C /* UITextField+Localization.swift */; };
-		37A1181C208EBFF300E6C81C /* AssociatedObjectKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A11815208EBFF300E6C81C /* AssociatedObjectKey.swift */; };
-		37A1181E208EBFF300E6C81C /* UIButton+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A11817208EBFF300E6C81C /* UIButton+Localization.swift */; };
-		37A1181F208EBFF300E6C81C /* UIBarItem+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A11818208EBFF300E6C81C /* UIBarItem+Localization.swift */; };
-		37A1182A208EC58500E6C81C /* UIViewController+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A11829208EC58500E6C81C /* UIViewController+Localization.swift */; };
-		37A1182C208EC63800E6C81C /* UITextView+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A1182B208EC63800E6C81C /* UITextView+Localization.swift */; };
-		37A1182E208EC6EC00E6C81C /* UISearchBar+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A1182D208EC6EC00E6C81C /* UISearchBar+Localization.swift */; };
+		37A11839208EDA2000E6C81C /* UIButton+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A11830208EDA2000E6C81C /* UIButton+Localization.swift */; };
+		37A1183A208EDA2000E6C81C /* UIViewController+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A11831208EDA2000E6C81C /* UIViewController+Localization.swift */; };
+		37A1183B208EDA2000E6C81C /* UITextView+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A11832208EDA2000E6C81C /* UITextView+Localization.swift */; };
+		37A1183C208EDA2000E6C81C /* UITextField+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A11833208EDA2000E6C81C /* UITextField+Localization.swift */; };
+		37A1183D208EDA2000E6C81C /* UISearchBar+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A11834208EDA2000E6C81C /* UISearchBar+Localization.swift */; };
+		37A1183E208EDA2000E6C81C /* UILabel+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A11835208EDA2000E6C81C /* UILabel+Localization.swift */; };
+		37A1183F208EDA2000E6C81C /* UIBarItem+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A11836208EDA2000E6C81C /* UIBarItem+Localization.swift */; };
+		37A11840208EDA2000E6C81C /* AssociatedObjectKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A11838208EDA2000E6C81C /* AssociatedObjectKey.swift */; };
 		3FCB51E3C85AB9466178CC369482FA63 /* UILocalizationKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AC632702434396F717C850D517A0AB9 /* UILocalizationKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		482DB9ED3780982B8CF6AD40EF3C6D07 /* Pods-UILocalizationKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6B903EB201D6BD5848DD3897B013AC /* Pods-UILocalizationKit_Example-dummy.m */; };
 		4B15F08F4D23BC19DF09AC168182EFD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -52,14 +52,14 @@
 		28DE6730BD06F933BAC7D0E2585AEC74 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B6B903EB201D6BD5848DD3897B013AC /* Pods-UILocalizationKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UILocalizationKit_Example-dummy.m"; sourceTree = "<group>"; };
 		35B00EE04F762415DBA7DA39487AA350 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37A11813208EBFF300E6C81C /* UILabel+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Localization.swift"; sourceTree = "<group>"; };
-		37A11814208EBFF300E6C81C /* UITextField+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Localization.swift"; sourceTree = "<group>"; };
-		37A11815208EBFF300E6C81C /* AssociatedObjectKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssociatedObjectKey.swift; sourceTree = "<group>"; };
-		37A11817208EBFF300E6C81C /* UIButton+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Localization.swift"; sourceTree = "<group>"; };
-		37A11818208EBFF300E6C81C /* UIBarItem+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarItem+Localization.swift"; sourceTree = "<group>"; };
-		37A11829208EC58500E6C81C /* UIViewController+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Localization.swift"; sourceTree = "<group>"; };
-		37A1182B208EC63800E6C81C /* UITextView+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+Localization.swift"; sourceTree = "<group>"; };
-		37A1182D208EC6EC00E6C81C /* UISearchBar+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Localization.swift"; sourceTree = "<group>"; };
+		37A11830208EDA2000E6C81C /* UIButton+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Localization.swift"; sourceTree = "<group>"; };
+		37A11831208EDA2000E6C81C /* UIViewController+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Localization.swift"; sourceTree = "<group>"; };
+		37A11832208EDA2000E6C81C /* UITextView+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Localization.swift"; sourceTree = "<group>"; };
+		37A11833208EDA2000E6C81C /* UITextField+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Localization.swift"; sourceTree = "<group>"; };
+		37A11834208EDA2000E6C81C /* UISearchBar+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Localization.swift"; sourceTree = "<group>"; };
+		37A11835208EDA2000E6C81C /* UILabel+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Localization.swift"; sourceTree = "<group>"; };
+		37A11836208EDA2000E6C81C /* UIBarItem+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarItem+Localization.swift"; sourceTree = "<group>"; };
+		37A11838208EDA2000E6C81C /* AssociatedObjectKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssociatedObjectKey.swift; sourceTree = "<group>"; };
 		41D2F8BF9CAF3980EE974761B5E10E6E /* Pods-UILocalizationKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UILocalizationKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		442C74BB7736E70F9E493B0C7431E7E5 /* Pods-UILocalizationKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UILocalizationKit_Example.modulemap"; sourceTree = "<group>"; };
 		44EE6B0693AA2095CB575D2277325639 /* Pods-UILocalizationKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UILocalizationKit_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -144,33 +144,35 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		37A11827208EC35500E6C81C /* Extensions */ = {
+		37A1182F208EDA2000E6C81C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				37A11818208EBFF300E6C81C /* UIBarItem+Localization.swift */,
-				37A11817208EBFF300E6C81C /* UIButton+Localization.swift */,
-				37A11813208EBFF300E6C81C /* UILabel+Localization.swift */,
-				37A1182D208EC6EC00E6C81C /* UISearchBar+Localization.swift */,
-				37A11814208EBFF300E6C81C /* UITextField+Localization.swift */,
-				37A1182B208EC63800E6C81C /* UITextView+Localization.swift */,
-				37A11829208EC58500E6C81C /* UIViewController+Localization.swift */,
+				37A11830208EDA2000E6C81C /* UIButton+Localization.swift */,
+				37A11831208EDA2000E6C81C /* UIViewController+Localization.swift */,
+				37A11832208EDA2000E6C81C /* UITextView+Localization.swift */,
+				37A11833208EDA2000E6C81C /* UITextField+Localization.swift */,
+				37A11834208EDA2000E6C81C /* UISearchBar+Localization.swift */,
+				37A11835208EDA2000E6C81C /* UILabel+Localization.swift */,
+				37A11836208EDA2000E6C81C /* UIBarItem+Localization.swift */,
 			);
-			path = Extensions;
+			name = Extensions;
+			path = UILocalizationKit/Classes/Extensions;
 			sourceTree = "<group>";
 		};
-		37A11828208EC36000E6C81C /* Enumerations */ = {
+		37A11837208EDA2000E6C81C /* Enumerations */ = {
 			isa = PBXGroup;
 			children = (
-				37A11815208EBFF300E6C81C /* AssociatedObjectKey.swift */,
+				37A11838208EDA2000E6C81C /* AssociatedObjectKey.swift */,
 			);
-			path = Enumerations;
+			name = Enumerations;
+			path = UILocalizationKit/Classes/Enumerations;
 			sourceTree = "<group>";
 		};
 		42C2A604E8A0B0F45F59064BFBE97A13 /* UILocalizationKit */ = {
 			isa = PBXGroup;
 			children = (
-				37A11828208EC36000E6C81C /* Enumerations */,
-				37A11827208EC35500E6C81C /* Extensions */,
+				37A11837208EDA2000E6C81C /* Enumerations */,
+				37A1182F208EDA2000E6C81C /* Extensions */,
 				2FA831ED8960267FB77497487A2C025D /* Pod */,
 				6507C42CCBFDCD79F869DA5E2F171CC3 /* Support Files */,
 			);
@@ -380,15 +382,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37A1182E208EC6EC00E6C81C /* UISearchBar+Localization.swift in Sources */,
-				37A1182A208EC58500E6C81C /* UIViewController+Localization.swift in Sources */,
-				37A1181B208EBFF300E6C81C /* UITextField+Localization.swift in Sources */,
-				37A1182C208EC63800E6C81C /* UITextView+Localization.swift in Sources */,
-				37A1181E208EBFF300E6C81C /* UIButton+Localization.swift in Sources */,
-				37A1181C208EBFF300E6C81C /* AssociatedObjectKey.swift in Sources */,
+				37A1183D208EDA2000E6C81C /* UISearchBar+Localization.swift in Sources */,
+				37A11839208EDA2000E6C81C /* UIButton+Localization.swift in Sources */,
+				37A11840208EDA2000E6C81C /* AssociatedObjectKey.swift in Sources */,
+				37A1183C208EDA2000E6C81C /* UITextField+Localization.swift in Sources */,
+				37A1183A208EDA2000E6C81C /* UIViewController+Localization.swift in Sources */,
+				37A1183B208EDA2000E6C81C /* UITextView+Localization.swift in Sources */,
+				37A1183F208EDA2000E6C81C /* UIBarItem+Localization.swift in Sources */,
+				37A1183E208EDA2000E6C81C /* UILabel+Localization.swift in Sources */,
 				A668B5A6D5199E9BB730EA1C55AF8986 /* UILocalizationKit-dummy.m in Sources */,
-				37A1181F208EBFF300E6C81C /* UIBarItem+Localization.swift in Sources */,
-				37A1181A208EBFF300E6C81C /* UILabel+Localization.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
