@@ -1,0 +1,16 @@
+PODS:
+  - UILocalizationKit (0.1.0)
+
+DEPENDENCIES:
+  - UILocalizationKit (from `../`)
+
+EXTERNAL SOURCES:
+  UILocalizationKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UILocalizationKit: 8659b3d3f726f29ab0f9f4c58dfbcf3695f05b66
+
+PODFILE CHECKSUM: 0a0de4d58badf1ba4271e84bfd6c8e9208672c49
+
+COCOAPODS: 1.5.0

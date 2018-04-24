@@ -1,0 +1,6 @@
+framework module Pods_UILocalizationKit_Example {
+  umbrella header "Pods-UILocalizationKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

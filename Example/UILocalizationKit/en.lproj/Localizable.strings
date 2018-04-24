@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  UILocalizationKit
+
+  Created by Jaren Hamblin on 4/23/18.
+  Copyright © 2018 CocoaPods. All rights reserved.
+*/
+
+"label" = "Label EN";
+"textfield" = "TextField EN";
+"button" = "Button EN";
+"barbutton" = "BarButton EN";
+"viewcontroller" = "ViewController EN";
+"textview" = "TextView EN";
+"searchbar" = "SearchBar EN";

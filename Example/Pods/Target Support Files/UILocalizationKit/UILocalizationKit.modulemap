@@ -1,0 +1,6 @@
+framework module UILocalizationKit {
+  umbrella header "UILocalizationKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
