@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UILocalizationKit'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Localize Interface Builder elements'
 
 # This description is used to generate tags and improve search results.
@@ -27,6 +27,8 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  s.watchos.deployment_target = '4.0'
+  s.tvos.deployment_target = '11.0'
   s.swift_version = '4.0'
   s.source_files = 'UILocalizationKit/Classes/**/*'
   
